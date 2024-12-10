@@ -1,0 +1,67 @@
+.invisivel{
+    display:none;
+  }
+  .visivel{
+    display:inline;
+  }
+  .inicial {
+    color: black;
+    text-align: center;
+    font-size: 100px;
+    background-color: lightgrey;
+    width: 150px;
+    height: 200px;
+    border: 5px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: 20px;
+  }
+  .acertou {
+    text-align: center;
+    color: yellow;
+    background-color: LawnGreen;
+    width: 150px;
+    height: 200px;
+    border: 15px solid yellow;
+    padding: 10px;
+    margin: 20px;
+  }
+  .errou {
+    text-align: center;
+    color: white;
+    background-color: red;
+    width: 150px;
+    height: 200px;
+    border: 15px solid black;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  body{
+    background-color: rgb(38, 39, 39);
+    color: white;
+    text-align: center;
+    
+  }
+
+  #joganovamente {
+    font-size: 16px; /* Tamanho da fonte */
+    padding: 5px 10px; /* Ajuste do preenchimento interno */
+    width: auto; /* Largura automática para ajustar ao conteúdo */
+  }
+  
+  #reiniciar {
+    font-size: 16px; /* Tamanho da fonte */
+    padding: 5px 10px; /* Ajuste do preenchimento interno */
+    width: auto; /* Largura automática para ajustar ao conteúdo */
+  }
+
+  .inicial img, .acertou img, .errou img {
+    width: 100px; /* Ajuste conforme necessário */
+    height: 100px; /* Ajuste conforme necessário */
+    border-radius: 50%;
+    object-fit: cover; /* Garante que a imagem preencha o círculo */;
+  }
+
+  
+
+  
